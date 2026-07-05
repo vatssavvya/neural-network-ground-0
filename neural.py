@@ -4,9 +4,9 @@ weights = [0.5, 0.41, 0.53, 0.1]
 weights1 = [.23, 0.4, 0.5, 1]
 weights2 = [.25, .43, 0.5, 0.42]
 
-bias = 3
+bias = 2
 bias2 = 3
-bias3 = 3
+bias3 = 0.2
 
 
 output = inputs[0]*weights[0] + inputs[1]*weights[1] 
