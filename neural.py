@@ -1,20 +1,23 @@
-inputs = [3.4, 1.3, 2.4, 3]
+import numpy as np
 
-weights1 = [[0.5, 0.41, 0.53, 0.1], 
+inputs = [3.4, 1.3, 2.4, 3]
+weights = [0.5, 0.41, 0.53, 0.1]
+bias = 3
+
+
+
+"""weights1 = [[0.5, 0.41, 0.53, 0.1], 
             [.23, 0.4, 0.5, 1]
             [.25, .43, 0.5, 0.42]]
 
 bias1 = [2, 3, 0.2]
+"""
 
-some_val = 0.5
-weight = 0.7
-bias = 0.7
-
+"""
 layerOutputs = []
 
 
 
-"""
 for neuron_weights, neuron_bias in zip(weights1, bias1):
     neuronOutput = 0
     for n_input, weight in zip(inputs, neuron_weights):
