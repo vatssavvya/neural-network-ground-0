@@ -1,18 +1,16 @@
 import numpy as np
 
 inputs = [3.4, 1.3, 2.4, 3]
-weights = [0.5, 0.41, 0.53, 0.1]
-bias = 3
-
-outputs = np.dot(weights, inputs) + bias
-
-
-"""weights1 = [[0.5, 0.41, 0.53, 0.1], 
+weights1 = [[0.5, 0.41, 0.53, 0.1], 
             [.23, 0.4, 0.5, 1]
             [.25, .43, 0.5, 0.42]]
 
 bias1 = [2, 3, 0.2]
-"""
+
+outputs = np.dot(weights1, inputs) + bias1
+
+
+
 
 """
 layerOutputs = []
