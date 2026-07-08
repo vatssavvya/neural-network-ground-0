@@ -4,6 +4,7 @@ inputs = [3.4, 1.3, 2.4, 3]
 weights = [0.5, 0.41, 0.53, 0.1]
 bias = 3
 
+outputs = np.dot(inputs, weights) + bias
 
 
 """weights1 = [[0.5, 0.41, 0.53, 0.1], 
