@@ -14,7 +14,6 @@ outputs = np.dot(weights1, inputs) + bias1
 
 
 
-
 """
 layerOutputs = []
 
