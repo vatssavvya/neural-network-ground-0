@@ -13,8 +13,7 @@ class layer_dense:
     def forward(self):
          pass
     
-
-
+print(np.random.randn(4, 3))
 
 
 
