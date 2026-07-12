@@ -10,9 +10,9 @@ weights1 = [[0.5, 0.41, 0.53, 0.1],
 
 bias1 = [2, 3, 0.2]
 
-outputs = np.dot(weights1, inputs) + bias1
+outputs = np.dot(inputs, np.array(weights1).T) + bias1
 
-
+print(outputs)
 
 """
 layerOutputs = []
