@@ -34,5 +34,3 @@ git clone [https://github.com/vatssavvya/neural-network-ground-0.git](https://gi
 cd neural-network-ground-0
 pip install numpy matplotlib
 ```
-
-Special thanks to Harrison Kinsley and Daniel Kukieła for creating the comprehensive NNFS curriculum that made this deep-dive into fundamental AI possible.
