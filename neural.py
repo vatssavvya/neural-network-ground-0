@@ -13,8 +13,11 @@ class layer_dense:
     def forward(self, inputs):
          self.output = np.dot(inputs, self.weights) + self.biases
     
-print(0.1* np.random.randn(4, 3))
+layer1 = layer_dense(4, 5)
+layer2 = layer_dense(5, 2)
 
+layer1.forward(X)
+print(layer1.output())
 
 
 
