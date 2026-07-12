@@ -9,7 +9,7 @@ X = [[3.4, 1.3, 2.4, 3],
 class layer_dense:
     def __init__(self, n_inputs, n_neurons):
         self.weights = np.random.randn(n_inputs, n_neurons)
-        self.biases = np.zeroes(1, n_neurons)
+        self.biases = np.zeroes((1, n_neurons))
     def forward(self):
          pass
     
