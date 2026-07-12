@@ -20,6 +20,7 @@ layer1_outputs = np.dot(inputs, np.array(weights1).T) + bias1
 
 layer2_outputs = np.dot(layer1_outputs, np.array(weights2).T) + bias2
 
+print(layer2_outputs)
 """
 layerOutputs = []
 
