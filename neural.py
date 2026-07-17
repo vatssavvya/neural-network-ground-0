@@ -22,4 +22,3 @@ layer1.forward(X)
 print(layer1.output)
 layer2.forward(layer1.output)
 print(layer2.output)
-
