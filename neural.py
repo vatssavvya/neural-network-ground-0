@@ -6,6 +6,7 @@ X = [[3.4, 1.3, 2.4, 3],
      [1.3, 3.1, 5.3, 0.5],
      [1.4, 5.3, 3.3, -0.8]]
 
+#modify so that each neuron has its own activation function
 class layer_dense:
     def __init__(self, n_inputs, n_neurons):
         self.weights = np.random.randn(n_inputs, n_neurons)
