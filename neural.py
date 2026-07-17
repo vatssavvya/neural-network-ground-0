@@ -2,7 +2,7 @@ import numpy as np
 
 np.random.seed(0)
 
-X = [[3.4, 1.3, 2.4, 3], #random batch of inputs, modify
+X = [[3.4, 1.3, 2.4, 3], #random batch of inputs, modify so that it'll have more realistic outcomes later on
      [1.3, 3.1, 5.3, 0.5],
      [1.4, 5.3, 3.3, -0.8]] 
 
