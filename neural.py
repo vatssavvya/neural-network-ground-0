@@ -1,6 +1,6 @@
 import numpy as np
 
-np.random.seed(0)
+np.random.seed(1)
 
 X = [[3.4, 1.3, 2.4, 3], 
      [1.3, 3.1, 5.3, 0.5],
