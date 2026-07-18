@@ -18,4 +18,3 @@ layer2 = layer_dense(5, 2)
 
 layer1.forward(X)
 layer2.forward(layer1.output) 
-print(layer2.output)
