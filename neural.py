@@ -9,6 +9,13 @@ X = [[3.4, 1.3, 2.4, 3],
 inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
 output = []
 
+for i in inputs:
+    if i > 0:
+        output.append(i)
+    elif i <= 0:
+        output.append(0)
+
+
 class layer_dense:
     def __init__(self, n_inputs, n_neurons):
         self.weights = np.random.randn(n_inputs, n_neurons)
