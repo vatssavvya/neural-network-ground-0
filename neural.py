@@ -6,7 +6,8 @@ X = [[3.4, 1.3, 2.4, 3],
      [1.3, 3.1, 5.3, 0.5],
      [1.4, 5.3, 3.3, -0.8]] 
 
-#relu example
+"""
+relu example
 
 inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
 output = []
@@ -16,7 +17,11 @@ for i in inputs:
         output.append(i)
     elif i <= 0:
         output.append(0)
+"""
 
+class Activation_ReLU:
+    def forward(self, inputs):
+        self.output = np.maximum(0, inputs)
 
 class layer_dense:
     def __init__(self, n_inputs, n_neurons):
