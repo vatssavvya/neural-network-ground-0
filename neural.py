@@ -35,7 +35,5 @@ class layer_dense:
          self.output = np.dot(inputs, self.weights) + self.biases
     
 layer1 = layer_dense(4, 5)
-layer2 = layer_dense(5, 2)
-
+activation1 = Activation_ReLU()
 layer1.forward(X)
-layer2.forward(layer1.output) 
