@@ -8,6 +8,8 @@ X = [[3.4, 1.3, 2.4, 3],
      [1.3, 3.1, 5.3, 0.5],
      [1.4, 5.3, 3.3, -0.8]] 
 
+X, y = spiral_data(100, 3)
+
 class Activation_ReLU:
     def forward(self, inputs):
         self.output = np.maximum(0, inputs)
