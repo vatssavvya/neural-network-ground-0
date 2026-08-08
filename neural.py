@@ -36,4 +36,5 @@ class layer_dense:
     
 layer1 = layer_dense(4, 5)
 activation1 = Activation_ReLU()
+
 layer1.forward(X)
