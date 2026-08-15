@@ -4,7 +4,7 @@ import math
 from nnfs.datasets import spiral_data
 
 nnfs.init()
-E = math.e
+
 
 X = [[3.4, 1.3, 2.4, 3], 
      [1.3, 3.1, 5.3, 0.5],
